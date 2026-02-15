@@ -389,7 +389,7 @@ Add this HTML (exclude current site from list):
 
 **Copyright:**
 ```html
-<p class="footer__copy">&copy; 2025 Antek Automation Ltd. Trading as [BRAND_NAME].</p>
+<p class="footer__copy">&copy; 2025 Antek Automation. Trading as [BRAND_NAME].</p>
 ```
 
 ### 16. Privacy Policy & Terms Pages
