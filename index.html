@@ -225,6 +225,38 @@
           "@type": "Answer",
           "text": "AI Automation Farnborough operates as the Farnborough division of Antek Automation, a UK-wide AI automation agency headquartered in Andover, Hampshire. As a Certified Retell AI Partner, we deliver enterprise-grade technology with specialized focus on Farnborough and Hampshire businesses."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer a call answering service in Farnborough?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — we provide an AI-powered call answering service for Farnborough businesses. The AI agent answers in your business name 24/7, books appointments in your diary, captures lead details, escalates urgent calls, and emails you a written summary of every call. From £97/month, live in under 10 working days, no long-term contract."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is AI call answering different from a traditional Farnborough call answering service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Traditional Farnborough call answering services use human agents reading scripts — expensive (£300-£800/month typical), available only during their staffed hours, and limited to taking messages. AI call answering runs 24/7, books appointments natively, integrates with your CRM, and costs from £97/month."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you build AI for Farnborough aerospace + defence supply-chain businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — we serve the SME and professional-services ecosystem around BAE Systems, QinetiQ, Lockheed Martin UK, and the wider Farnborough aerospace and defence supplier base. Supplier qualification, document chase, compliance-aware enquiry routing, audit-ready CRM workflows. We do not build agents that handle classified or ITAR-controlled data."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can the AI handle the enquiry surge during Farnborough Airshow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — that's one of the highest-leverage use cases for Farnborough businesses. The AI agent and chatbot capture, qualify, score, and follow up every enquiry while your team is on the show floor. Most of our Farnborough clients see 5-10× their normal enquiry volume during Airshow years and need the AI specifically to cope."
+        }
       }
     ]
   }
@@ -1579,6 +1611,74 @@
     }
     .footer__profiles a:hover { color: var(--accent-secondary); }
     .footer__profiles-divider { margin: 0 4px; opacity: 0.3; color: var(--text-muted); }
+    /* ── CALL ANSWERING + AEROSPACE SECTIONS ────────────── */
+    .call-answering, .aerospace {
+      padding: 96px 0;
+      background: var(--bg-primary);
+      position: relative;
+    }
+    .aerospace { background: var(--bg-secondary); }
+    .ca__head, .aero__head {
+      max-width: 820px;
+      margin: 0 auto 56px;
+      text-align: center;
+    }
+    .ca__label, .aero__label {
+      display: inline-block;
+      font-size: 0.78rem;
+      color: var(--accent-secondary);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+    }
+    .ca__grid, .aero__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .ca__card, .aero__card {
+      background: rgba(26, 31, 46, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+      transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+    }
+    .ca__card:hover, .aero__card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(59, 130, 246, 0.3);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+    }
+    .ca__card h3, .aero__card h3 {
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+    }
+    .ca__card p, .aero__card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+    .ca__cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .ca__cta a {
+      display: inline-block;
+      padding: 14px 28px;
+      background: var(--accent-cta, #10b981);
+      color: #000;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .ca__cta a:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(16,185,129,0.3); }
+    @media (max-width: 768px) {
+      .ca__grid, .aero__grid { grid-template-columns: 1fr; }
+      .call-answering, .aerospace { padding: 64px 0; }
+    }
   </style>
   <script type="application/ld+json">
   {
@@ -2107,6 +2207,68 @@
       </div>
     </section>
 
+    <!-- ═══ CALL ANSWERING SERVICE (Farnborough) ═══ -->
+    <section class="call-answering" id="call-answering-farnborough">
+      <div class="container">
+        <div class="ca__head reveal">
+          <span class="ca__label">Farnborough's AI Call Answering Service</span>
+          <h2>Call answering service in Farnborough — but powered by AI</h2>
+          <p class="section-subtitle">We provide an AI-powered call answering service for Farnborough businesses. Picks up every call in your business name. Books appointments straight into your diary. Captures leads with full caller detail. Escalates urgent calls to you instantly. Available 24/7. Costs less than a traditional Farnborough call answering service and never has an off day.</p>
+        </div>
+        <div class="ca__grid">
+          <article class="ca__card reveal">
+            <h3>How our Farnborough call answering works</h3>
+            <p>The AI agent answers in your business name within 2 rings. It understands the caller's intent, asks the right qualifying questions, books an appointment in your calendar if appropriate, takes a full message if not, and emails a written summary to you within seconds of the call ending.</p>
+          </article>
+          <article class="ca__card reveal">
+            <h3>Why Farnborough businesses pick AI call answering over a service bureau</h3>
+            <p>Traditional Farnborough call answering services use human agents reading a script — expensive, only available during their working hours, and limited in what they can actually do beyond taking a message. AI call answering: 24/7, books appointments natively, integrates with your CRM, costs from £97/month.</p>
+          </article>
+          <article class="ca__card reveal">
+            <h3>What gets covered</h3>
+            <p>New customer enquiries, existing customer queries, appointment booking and rescheduling, after-hours overflow, emergency escalation. We tune the agent to your business — your tone, your services, your pricing, your booking rules.</p>
+          </article>
+          <article class="ca__card reveal">
+            <h3>Setup + pricing</h3>
+            <p>Setup from £497. Monthly from £97 (includes call handling minutes — overage priced transparently). Most Farnborough businesses are live in under 10 working days. No long-term contract — cancel any time after the first month.</p>
+          </article>
+        </div>
+        <div class="ca__cta reveal">
+          <a href="#contact">Book a discovery call</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ AEROSPACE + DEFENCE (Farnborough) ═══ -->
+    <section class="aerospace" id="aerospace-defence">
+      <div class="container">
+        <div class="aero__head reveal">
+          <span class="aero__label">Aerospace + Defence Farnborough</span>
+          <h2>AI automation for Farnborough's aerospace, defence + tech ecosystem</h2>
+          <p class="section-subtitle">Farnborough's ecosystem sits at the heart of UK aerospace and defence — BAE Systems, QinetiQ, Lockheed Martin UK, the MOD-adjacent supplier base, the Farnborough Airshow ecosystem, plus the broader EM3 tech corridor. We build AI for the SME and professional-services businesses that orbit it.</p>
+        </div>
+        <div class="aero__grid">
+          <article class="aero__card reveal">
+            <h3>AI for aerospace + defence supply chain SMEs</h3>
+            <p>Supplier qualification, document chase + verification, ITAR-aware enquiry routing, compliance-respecting client portals, audit-trail-ready CRM hygiene. We build to your enterprise customer's security baseline.</p>
+          </article>
+          <article class="aero__card reveal">
+            <h3>AI for Farnborough professional services + consultants</h3>
+            <p>Most Farnborough consultancies live or die by how quickly they qualify new enquiries from primes and MOD agencies. The AI catches those enquiries 24/7, qualifies them properly, books the right consultant for the discovery call, and pushes everything into your CRM.</p>
+          </article>
+          <article class="aero__card reveal">
+            <h3>Farnborough Airshow + event-driven enquiry handling</h3>
+            <p>Airshow years bring a tide of new enquiries that can drown your team. AI call answering and chatbot intake handle the surge cleanly — every enquiry captured, qualified, scored, and followed up while you're on the show floor.</p>
+          </article>
+          <article class="aero__card reveal">
+            <h3>Where we draw the line</h3>
+            <p>We build for the supplier ecosystem and surrounding businesses. We do not build agents that operate on classified data, ITAR-controlled information, or anything that needs UK government security clearance. If your use case sits inside that boundary, we'll tell you up front.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
     <!-- ═══ FAQ ═══ -->
     <section class="faq" id="faq">
       <div class="container">
@@ -2227,6 +2389,35 @@
               <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
             </button>
             <div class="faq__answer"><div class="faq__answer-inner">AI Automation Farnborough operates as the Farnborough division of Antek Automation, a UK-wide AI automation agency headquartered in Andover, Hampshire. As a Certified Retell AI Partner, we deliver enterprise-grade technology with specialized focus on Farnborough and Hampshire businesses.</div></div>
+          </div>
+        
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              Do you offer a call answering service in Farnborough?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Yes — we provide an AI-powered call answering service for Farnborough businesses. The AI agent answers in your business name 24/7, books appointments in your diary, captures lead details, escalates urgent calls, and emails you a written summary of every call. From £97/month, live in under 10 working days, no long-term contract.</div></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              How is AI call answering different from a traditional Farnborough call answering service?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Traditional Farnborough call answering services use human agents reading scripts — expensive (£300-£800/month typical), available only during their staffed hours, and limited to taking messages. AI call answering runs 24/7, books appointments natively, integrates with your CRM, and costs from £97/month.</div></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              Do you build AI for Farnborough aerospace + defence supply-chain businesses?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Yes — we serve the SME and professional-services ecosystem around BAE Systems, QinetiQ, Lockheed Martin UK, and the wider Farnborough aerospace and defence supplier base. Supplier qualification, document chase, compliance-aware enquiry routing, audit-ready CRM workflows. We do not build agents that handle classified or ITAR-controlled data.</div></div>
+          </div>
+          <div class="faq__item reveal">
+            <button class="faq__question" aria-expanded="false">
+              Can the AI handle the enquiry surge during Farnborough Airshow?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq__answer"><div class="faq__answer-inner">Yes — that's one of the highest-leverage use cases for Farnborough businesses. The AI agent and chatbot capture, qualify, score, and follow up every enquiry while your team is on the show floor. Most of our Farnborough clients see 5-10× their normal enquiry volume during Airshow years and need the AI specifically to cope.</div></div>
           </div>
         </div>
       </div>
